@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "reporter.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",

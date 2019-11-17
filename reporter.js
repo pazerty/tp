@@ -1,4 +1,5 @@
 const { exec } = require('child_process');
+const { writeFileSync, readFileSync } = require('fs');
 const axios = require('axios');
 
 const URL = 'https://pazerty.000webhostapp.com/macs/'
@@ -34,7 +35,7 @@ function postMacs(params) {
 
 function update(params) {
     const filename = __filename.slice(__dirname.length + 1);
-    get('https://raw.githubusercontent.com/pazerty/tp/master/'+filename)
+    axios.get('https://raw.githubusercontent.com/pazerty/tp/master/'+filename)
         .then(
             ({ data }) => {
                 let current = '';
