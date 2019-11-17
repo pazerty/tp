@@ -1,0 +1,14 @@
+{
+  "name": "tp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "reporter.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
